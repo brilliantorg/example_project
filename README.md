@@ -12,3 +12,11 @@ pip install -r requirements.txt
 ```
 
 Then access `http://localhost:8000/example/hello-world/` from your browser.
+
+This example uses the `mkvirtualenv` command from `virtualenvwrapper`. This can be prepared on a
+modern ubuntu by `sudo apt-get install virtualenvwrapper`, and then adding the following to your
+`.bashrc`.
+
+```
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+```
